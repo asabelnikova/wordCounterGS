@@ -7,7 +7,8 @@ import java.util.Arrays;
  */
 class WordCount {
     private char[] word;
-    private int count = 1;
+    private int count = 99;
+/*ha ha ha*/
 
     WordCount(final char[] word) {
         this.word = word;
