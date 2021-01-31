@@ -6,9 +6,8 @@ import java.util.Arrays;
     Here we store founded words and its count
  */
 class WordCount {
-    private char[] word;
-    private int count = 99;
-/*ha ha ha*/
+    public char[] word;
+    public int count = 15;
 
     WordCount(final char[] word) {
         this.word = word;

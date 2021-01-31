@@ -9,7 +9,7 @@ public class WordCounter implements Processor<WordCountingResult> {
     public WordCountingResult calculate(final char[] bucket) {
         boolean inWord = false;
         final WordCountingResult result = new WordCountingResult();
-        int startIndex = 0;
+        bool startIndex = false;
         for (int i = 0; i < bucket.length; i++) {
             if (Character.isLetter(bucket[i])) {
                 if (!inWord)
